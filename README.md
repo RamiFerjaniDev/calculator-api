@@ -26,7 +26,8 @@ Response: { "sum": 0.0 }
 ## How to Run
 
 ### Requirements
-- Java 17+ (required for Spring Boot 3.5)
+- Java 8+
+- Spring Boot 2.7
 - Maven 3.9
 
 ### Steps
