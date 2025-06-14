@@ -26,9 +26,9 @@ Response: { "sum": 0.0 }
 ## How to Run
 
 ### Requirements
-- Java 8+
+- Java 8+ (installed and in your PATH)
 - Spring Boot 2.7
-- Maven 3.9
+- Maven 3.9 (in your PATH)
 
 ### Steps
 
@@ -36,7 +36,10 @@ Response: { "sum": 0.0 }
 - git clone https://github.com/RamiFerjaniDev/calculator-api.git
 - cd calculator-api
 2. Run the application:
-- ./mvnw spring-boot:run
+```bash
+./mvnw spring-boot:run
+or
+mvn spring-boot:run
 3. Access the API:
 - In your browser or tool (Postman):
   ```
@@ -44,6 +47,14 @@ Response: { "sum": 0.0 }
   ```
 
 ### To Run Tests
-
+Linux
 ```bash
 ./mvnw test
+Windows
+```bash
+mvn test
+
+### Notes
+- Make sure you run these commands from the project root directory where the pom.xml file is located.
+
+- To stop the running app, press Ctrl+C in the terminal.
