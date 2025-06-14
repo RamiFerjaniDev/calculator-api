@@ -36,12 +36,20 @@ Response: { "sum": 0.0 }
 - git clone https://github.com/RamiFerjaniDev/calculator-api.git
 - cd calculator-api
 2. Run the application:
+  
 ```bash
 ./mvnw spring-boot:run
+```
+
 or
+
+```bash
 mvn spring-boot:run
+```
+
 3. Access the API:
 - In your browser or tool (Postman):
+
   ```
   http://localhost:8080/calculator/add?operands=5,6
   ```
@@ -50,9 +58,12 @@ mvn spring-boot:run
 Linux
 ```bash
 ./mvnw test
+```
+
 Windows
 ```bash
 mvn test
+```
 
 ### Notes
 - Make sure you run these commands from the project root directory where the pom.xml file is located.
